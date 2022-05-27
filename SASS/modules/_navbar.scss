@@ -1,0 +1,13 @@
+.navbar-top {
+	margin-top: 20px;
+	.logo {
+		font-weight: map-get($font-weights, bold);
+	}
+	.navbar-nav {
+		.nav-link {
+			padding-left: 50px;
+			color: $black;
+			font-weight: map-get($font-weights, medium);
+		}
+	}
+}

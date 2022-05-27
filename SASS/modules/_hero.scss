@@ -1,0 +1,25 @@
+.hero {
+	padding-top: 50px;
+	.head-title {
+		color: $black;
+		font-weight: map-get($font-weights, bold);
+		margin-bottom: 20px;
+		font-size: 50px;
+	}
+	.desc {
+		color: $grey;
+		margin-bottom: 25px;
+	}
+	.banner {
+		text-align: center;
+		.img-banner {
+			padding-top: 50px;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.hero-left {
+		margin-left: 15px;
+	}
+}

@@ -1,0 +1,28 @@
+footer {
+	background-color: $brown;
+	color: $white;
+	padding: 60px 0 10px 0;
+	h4 {
+		padding-bottom: 15px;
+		font-size: 16px;
+		font-weight: map-get($font-weights, bold);
+	}
+	div {
+		p {
+			.link-footer {
+				color: $white !important;
+				text-decoration: none !important;
+			}
+			:hover {
+				color: $grey !important;
+			}
+		}
+	}
+}
+@media (max-width: 992px) {
+	footer {
+		h4 {
+			margin-top: 20px;
+		}
+	}
+}

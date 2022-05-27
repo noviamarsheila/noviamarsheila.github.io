@@ -1,0 +1,45 @@
+.price {
+	margin: 100px 0 100px 0;
+	.profil-copywriting {
+		.price-header {
+			font-size: 40px;
+			font-weight: map-get($font-weights, semibold);
+			span {
+				color: $brown;
+			}
+		}
+		.price-desc {
+			color: $grey;
+			margin: 20px 0 70px 0;
+		}
+	}
+}
+
+.master-card {
+	background-color: $brown;
+	border-radius: 15px;
+	padding: 25px 0 40px 30px;
+	color: $white;
+	margin-top: 40px;
+	.item-benefit {
+		display: flex;
+		align-items: flex-start;
+		img {
+			margin-right: 8px;
+		}
+	}
+	.label-badge {
+		position: absolute;
+		transform: translateY(-38px) translateX(150%);
+		text-align: center;
+	}
+}
+
+@media (max-width: 992px) {
+	.branding {
+		overflow-x: hidden;
+		img {
+			width: 100% !important;
+		}
+	}
+}

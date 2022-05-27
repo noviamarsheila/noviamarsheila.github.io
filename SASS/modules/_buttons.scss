@@ -1,0 +1,18 @@
+@import "./typo";
+
+.btn-master {
+	padding: 10px 15px;
+	text-decoration: none;
+	border-radius: 10px;
+	color: $white !important;
+}
+.btn-main {
+	@extend .btn-master;
+	font-weight: map-get($font-weights, semibold);
+	background-color: $brown;
+}
+.btn-price {
+	@extend .btn-master;
+	font-weight: map-get($font-weights, semibold);
+	background-color: $thr-brown;
+}

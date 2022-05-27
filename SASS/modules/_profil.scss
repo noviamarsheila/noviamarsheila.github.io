@@ -1,0 +1,17 @@
+.profile {
+	background-color: $brown;
+	margin: 110px 0 50px 0;
+	.profil-header {
+		font-size: 40px;
+		margin-top: 30px;
+		color: $white;
+		span {
+			color: $sec-brown;
+		}
+	}
+	.profil-desc {
+		color: $grey;
+		max-width: 400px;
+		margin: 20px 0 30px 0;
+	}
+}
