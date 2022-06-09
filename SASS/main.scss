@@ -8,6 +8,9 @@
 @import "./modules/testimonial";
 @import "./modules/footer";
 
+html {
+	overflow-x: hidden;
+}
 body {
 	font-family: "Inter", sans-serif;
 	overflow-x: hidden;
